@@ -92,9 +92,7 @@
                                     <button class="btn btn-dark btn-sm rounded-5 px-3 shadow">Add to Cart</button>
                                 </div>
                             </div>
-                        </div>
-
-                        
+                        </div>   
                     </div>
 
                     
@@ -114,15 +112,189 @@
                 </div>
             </div>
 
-            <div class="mt-5 px-5">
+            <div class="mt-5 px-5 py-5 bg-body">
                 <div class="d-flex justify-content-between">
-                    <p class="fs-5 fw-bold mb-2 active">Explore our Recommendations</p>
+                    <p class="fs-5 fw-bold mb-3 active">Explore our Recommendations</p>
                     <div>
-                        <i class="bi bi-arrow-left"></i>
+                        <i class="bi bi-arrow-left me-2"></i>
                         <i class="bi bi-arrow-right"></i>
                     </div>
-                </div>  
+                </div> 
+                <div class="row mb-3">
+                    <div class="col-3">
+                        <div class="border rounded-3 p-3 bg-body">
+                            <img src="airpods-4-anc-select-202409.jpg" alt="Airpods" class="img-thumbnail shadow-sm product-image">
+                            <p class="fs-5 mt-2 ms-2 mb-0">Apple Airpods Pro</p>
+                            <div class="d-flex justify-content-between align-items-baseline">
+                                <small class="ms-1 mb-0 text-secondary"><i class="bi bi-star-fill text-warning me-1"></i>5.0 (2 Reviews)</small>
+                                <p class="fs-5 ms-auto mb-0">₱200<small class="text-secondary">/day</small></p>
+                            </div>
+                            <div class="d-flex justify-content-between align-items-baseline mx-3 mt-2">
+                                <button class="btn btn-success btn-sm rounded-5 px-3 shadow">Rent Now</button>
+                                <button class="btn btn-dark btn-sm rounded-5 px-3 shadow">Add to Cart</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-3">
+                        <div class="border rounded-3 p-3 bg-body">
+                            <img src="airpods-4-anc-select-202409.jpg" alt="Airpods" class="img-thumbnail shadow-sm product-image">
+                            <p class="fs-5 mt-2 ms-2 mb-0">Apple Airpods Pro</p>
+                            <div class="d-flex justify-content-between align-items-baseline">
+                                <small class="ms-1 mb-0 text-secondary"><i class="bi bi-star-fill text-warning me-1"></i>5.0 (2 Reviews)</small>
+                                <p class="fs-5 ms-auto mb-0">₱200<small class="text-secondary">/day</small></p>
+                            </div>
+                            <div class="d-flex justify-content-between align-items-baseline mx-3 mt-2">
+                                <button class="btn btn-success btn-sm rounded-5 px-3 shadow">Rent Now</button>
+                                <button class="btn btn-dark btn-sm rounded-5 px-3 shadow">Add to Cart</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-3">
+                        <div class="border rounded-3 p-3 bg-body">
+                            <img src="airpods-4-anc-select-202409.jpg" alt="Airpods" class="img-thumbnail shadow-sm product-image">
+                            <p class="fs-5 mt-2 ms-2 mb-0">Apple Airpods Pro</p>
+                            <div class="d-flex justify-content-between align-items-baseline">
+                                <small class="ms-1 mb-0 text-secondary"><i class="bi bi-star-fill text-warning me-1"></i>5.0 (2 Reviews)</small>
+                                <p class="fs-5 ms-auto mb-0">₱200<small class="text-secondary">/day</small></p>
+                            </div>
+                            <div class="d-flex justify-content-between align-items-baseline mx-3 mt-2">
+                                <button class="btn btn-success btn-sm rounded-5 px-3 shadow">Rent Now</button>
+                                <button class="btn btn-dark btn-sm rounded-5 px-3 shadow">Add to Cart</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-3">
+                        <div class="border rounded-3 p-3 bg-body">
+                            <img src="airpods-4-anc-select-202409.jpg" alt="Airpods" class="img-thumbnail shadow-sm product-image">
+                            <p class="fs-5 mt-2 ms-2 mb-0">Apple Airpods Pro</p>
+                            <div class="d-flex justify-content-between align-items-baseline">
+                                <small class="ms-1 mb-0 text-secondary"><i class="bi bi-star-fill text-warning me-1"></i>5.0 (2 Reviews)</small>
+                                <p class="fs-5 ms-auto mb-0">₱200<small class="text-secondary">/day</small></p>
+                            </div>
+                            <div class="d-flex justify-content-between align-items-baseline mx-3 mt-2">
+                                <button class="btn btn-success btn-sm rounded-5 px-3 shadow">Rent Now</button>
+                                <button class="btn btn-dark btn-sm rounded-5 px-3 shadow">Add to Cart</button>
+                            </div>
+                        </div>
+                    </div>
+        
+                    
+                </div> 
             </div>
+
+            <footer class="text-center text-lg-start bg-body-tertiary text-muted">
+                <!-- Section: Social media -->
+                <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+                    <!-- Left -->
+                    <div class="me-5 d-none d-lg-block">
+                    <span>Get connected with us on social networks:</span>
+                    </div>
+                    <!-- Left -->
+
+                    <!-- Right -->
+                    <div>
+                    <a href="" class="me-4 text-reset">
+                        <i class="bi bi-facebook"></i>
+                    </a>
+                    <a href="" class="me-4 text-reset">
+                        <i class="bi bi-twitter-x"></i>
+                    </a>
+                    <a href="" class="me-4 text-reset">
+                        <i class="bi bi-linkedin"></i>
+                    </a>
+                    </div>
+                    <!-- Right -->
+                </section>
+                <!-- Section: Links  -->
+                <section class="">
+                    <div class="container text-center text-md-start mt-5">
+                    <!-- Grid row -->
+                    <div class="row mt-3">
+                        <!-- Grid column -->
+                        <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+                        <!-- Content -->
+                        <h6 class="text-uppercase fw-bold mb-4">
+                            <i class="fas fa-gem me-3"></i>Company name
+                        </h6>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas saepe at possimus, fuga nulla dolor soluta asperiores optio nemo harum expedita rem a mollitia obcaecati accusantium, itaque, iure rerum vitae.
+                        </p>
+                        </div>
+                        <!-- Grid column -->
+
+                        <!-- Grid column -->
+                        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+                        <!-- Links -->
+                        <h6 class="text-uppercase fw-bold mb-4">
+                            Links
+                        </h6>
+                        <p>
+                            <a href="#!" class="text-reset">link</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-reset">link</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-reset">link</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-reset">link</a>
+                        </p>
+                        </div>
+                        <!-- Grid column -->
+
+                        <!-- Grid column -->
+                        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+                        <!-- Links -->
+                        <h6 class="text-uppercase fw-bold mb-4">
+                            Useful links
+                        </h6>
+                        <p>
+                            <a href="#!" class="text-reset">Pricing</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-reset">Settings</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-reset">Rentals</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-reset">Help</a>
+                        </p>
+                        </div>
+                        <!-- Grid column -->
+
+                        <!-- Grid column -->
+                        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+                        <!-- Links -->
+                        <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
+                        <p><i class="bi bi-house-door-fill me-2"></i> New York, NY 10012, US</p>
+                        <p>
+                        <i class="bi bi-envelope-fill me-2"></i>
+                            info@example.com
+                        </p>
+                        <p><i class="bi bi-telephone-fill me-2"></i> + 01 234 567 88</p>
+                        </div>
+                        <!-- Grid column -->
+                    </div>
+                    <!-- Grid row -->
+                    </div>
+                </section>
+                <!-- Section: Links  -->
+
+                <!-- Copyright -->
+                <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+                    © 2021 Copyright:
+                    <a class="text-reset fw-bold" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+                </div>
+                <!-- Copyright -->
+                </footer>
+
+
+
         </div>
         
         
