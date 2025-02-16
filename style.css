@@ -12,11 +12,15 @@
 .rb{
     color: #1F4529;
 }
+
 .active{
     color: #1F4529;
 }
-.active:hover{
-    color: #47663B;
+.secondary{
+    color: #9bc6a6;
+}
+.secondary:hover{
+    color:#1F4529;
 }
 
 .btn-success{

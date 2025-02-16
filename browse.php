@@ -21,12 +21,8 @@
                 <p class="fs-4 fw-bold my-auto rb">Rent Gadgets, Your Way</p>
                 <div class="d-flex gap-3">
                     <input class="form-control rounded-5 px-3 shadow-sm" list="datalistOptions" id="exampleDataList" placeholder="Type to search...">
-                    <datalist id="datalistOptions">
+                    <datalist id="datalistOptions" class="m-0 p-0">
                     <option value="San Francisco">
-                    <option value="New York">
-                    <option value="Seattle">
-                    <option value="Los Angeles">
-                    <option value="Chicago">
                     </datalist>
                     <button type="button" class="btn btn-success rounded-5 px-4 py-0 m-0 shadow-sm">Search</button>
                 </div>
@@ -38,13 +34,13 @@
                 <!-- side bar - Categories -->
                 <?php require_once 'browse_side.php'; ?>
                 <!-- products -->
-                <div class="col-9 pt-3 rounded-start-3 bg-body-secondary">
-                    <div class="row mb-3 container rounded-start-3 bg-body-secondary">
+                <div class="col-9 rounded-start-3 bg-body-secondary">
+                    <div class="row mb-3 mt-0 container rounded-start-3 bg-body-secondary">
                     <?php include "browse_product.php"; ?>
                     </div>
 
-                    <!-- page count -->
-                    <div class="mx-3 mb-5">
+                    <!-- page count, ikaw na bahala gar hahahhaha -->
+                    <div class="mx-3 mb-4">
                         <div class="d-flex justify-content-between">
                             <button type="button" class="btn btn-light text-start" data-bs-toggle="button"><small><i class="bi bi-caret-left-fill"></i></small></button>
                             <div class="">
@@ -65,8 +61,8 @@
                 <div class="d-flex justify-content-between">
                     <p class="fs-5 fw-bold mb-3 active">Explore our Recommendations</p>
                     <div>
-                        <i class="bi bi-arrow-left me-2"></i>
-                        <i class="bi bi-arrow-right"></i>
+                        <button class="btn btn-outline-success"><i class="bi bi-arrow-left"></i></button>
+                        <button class="btn btn-outline-success"><i class="bi bi-arrow-right"></i></button>
                     </div>
                 </div> 
                 <div class="row mb-3">
