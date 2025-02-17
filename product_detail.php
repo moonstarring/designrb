@@ -84,8 +84,7 @@
                         </div>
 
                         <small class="text-secondary p-0 mb-2">Product Description:</small>
-                        <p class="fs-6 p-0 mb-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero, corrupti doloribus! Eum suscipit quis autem veritatis. 
-                        Dicta voluptas incidunt repudiandae enim pariatur, ullam sunt fugiat. Iste, esse est. Quod, suscipit?</p>
+                        <p class="fs-6 p-0 mb-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero, corrupti doloribus! </p>
 
                         <div class="row">
                             <div class="col">
@@ -95,7 +94,7 @@
                                     <a href="#" class="btn btn-outline-success m-0 p-1">Airpods Pro 1</a>
                                 </div>
                                 
-                                <small class="text-secondary p-0 mb-2">Comes with (Specifications):</small>
+                                <small class="text-secondary p-0 mb-2">Comes with:</small>
                                 <div class="d-flex gap-2 mt-1">
                                     <a href="#" class="btn btn-outline-success m-0 p-1">Case</a>
                                     <a href="#" class="btn btn-outline-success m-0 p-1">IOS Charger</a>
@@ -172,15 +171,53 @@
                             
                         </div>
                     </div>
+            </div>
 
-
-
-
+            <div class="row container-fluid mt-3 mx-0 bg-body rounded-3 shadow-sm p-4 d-flex align-items-start">
+                <p class="fs-5 text-decoration-none text-dark fw-bold mb-2 p-0">Product Specification</p>
+                <div class="col-2 d-flex flex-column gap-3">
+                    <small class="text-secondary pt-1">Category</small>
+                    <small class="text-secondary pt-1">Available Stock</small>
+                    <small class="text-secondary pt-1">Location</small>
                 </div>
-                <div class="row container-fluid mt-3 mx-0 bg-body rounded-3 shadow-sm p-4 gap-3 d-flex">
-                    reviews
+
+                <div class="col d-flex flex-column gap-3">
+                    <div class="d-flex gap-1 p-0 m-0">
+                        <a href="#" class="p-0 m-0 link-success link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover">Wearables</a>
+                        <p class="text-secondary m-0 p-0"> > </p>
+                        <a href="#" class="p-0 mb-0 link-success link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover">IOS</a>
+                    </div>
+                    <p class="fs-6 text-success m-0 p-0">15</p>
+                    <p class="fs-6 text-success m-0 p-0">Cabato Rd., Brgy. Tetuan, Zamboanga City</p>
                 </div>
 
+                <p class="fs-5 text-decoration-none text-dark fw-bold mt-5 mb-3 p-0">Product Description</p>
+                <p class="m-0 ps-2">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempora, architecto fuga 
+                    dolores quae sit fugiat ratione eius consequuntur! Ea, iusto quas nihil consequatur earum vitae aliquam sint tempore consequuntur praesentium!</p>
+            </div>
+
+            <div class="row container-fluid mt-3 mx-0 bg-body rounded-3 shadow-sm p-4 d-flex align-items-start">
+                <p class="fs-5 text-decoration-none text-dark fw-bold mb-2 p-0">Product Specification</p>
+                <div class="col-2 d-flex flex-column gap-3">
+                    <small class="text-secondary pt-1">Category</small>
+                    <small class="text-secondary pt-1">Available Stock</small>
+                    <small class="text-secondary pt-1">Location</small>
+                </div>
+
+                <div class="col d-flex flex-column gap-3">
+                    <div class="d-flex gap-1 p-0 m-0">
+                        <a href="#" class="p-0 m-0 link-success link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover">Wearables</a>
+                        <p class="text-secondary m-0 p-0"> > </p>
+                        <a href="#" class="p-0 mb-0 link-success link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover">IOS</a>
+                    </div>
+                    <p class="fs-6 text-success m-0 p-0">15</p>
+                    <p class="fs-6 text-success m-0 p-0">Cabato Rd., Brgy. Tetuan, Zamboanga City</p>
+                </div>
+
+                <p class="fs-5 text-decoration-none text-dark fw-bold mt-5 mb-3 p-0">Product Description</p>
+                <p class="m-0 ps-2">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempora, architecto fuga 
+                    dolores quae sit fugiat ratione eius consequuntur! Ea, iusto quas nihil consequatur earum vitae aliquam sint tempore consequuntur praesentium!</p>
+            </div>
         </div>
 
 
