@@ -1,4 +1,4 @@
-<div class="container bg-body rounded-bottom-5 d-flex mb-5 py-3">
+<div class="container bg-body rounded-bottom-5 d-flex mb-5 py-3 shadow">
     <a href="browse.php">
         <img class="ms-5 my-4" src="images/brand/rb logo text colored.png" alt="Logo" height="50px">
     </a>
