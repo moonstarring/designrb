@@ -31,8 +31,8 @@
 
 .btn-success:hover{
     color: white;
-    border-color: #47663B;
-    background-color: #47663B;
+    border-color: #689457;
+    background-color: #689457;
 }
 
 .btn-success:focus, .btn-success.focus{
@@ -54,9 +54,10 @@
     box-shadow: 0 0 0 0.2rem rgba(40, 167, 69, 0.5);
 }
 .gradient-success:hover{
-background: linear-gradient(0deg,#1f4529,#16301e,#0c1b11);
+background: linear-gradient(90deg,#1f4529,#16301e,#0c1b11);
 background-size: 180% 180%;
 animation: gradient-animation 2s ease infinite;
+border: linear-gradient(90deg,#1f4529,#16301e,#0c1b11);
 }
 @keyframes gradient-animation {
     0% {
