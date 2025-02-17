@@ -118,23 +118,58 @@
                 </div>
             </div>
 
-            <div class="row container-fluid mt-3 mx-0 bg-body rounded-3 shadow-sm p-4">
-                    <div class="col-1">
+            <div class="row container-fluid mt-3 mx-0 bg-body rounded-3 shadow-sm p-4 gap-3 d-flex align-items-center">
+                    <div class="col-1 d-flex justify-content-center align-items-center ps-3">
                         <img src="images/user/pfp.png" alt="" class="rounded-circle border shadow-sm img-thumbnail">
                     </div>
-                    <div class="col-3 d-flex flex-column">
-                        <a href="#" class="fs-6 text-decoration-none text-dark fw-bold m-0 p-0">Owner Name</a>
+                    <div class="col-2 d-flex flex-column border-end m-0 p-0 align-self-start">
+                        <a href="#" class="fs-5 text-decoration-none text-dark fw-bold m-0 p-0">Owner Name</a>
                         <p href="#" class="fs-6 text-secondary p-0">Active 3 mins ago</p>
                         <div class="d-flex gap-2">
                             <a href="#" class="btn btn-success m-0 px-2">Message</a>
                             <a href="#" class="btn btn-outline-secondary m-0 px-2">View Profile</a>
                         </div>                      
                     </div>
-                    <div class="col-7">
-                        <p class="fs-6 fw-bold">Reviews</p>
-                        <div class="d-flex gap-2">
-                            <p class="fs-6 fw-bold">5</p>
-                            <i class="bi bi-star    text-warning"></i>  
+                    <div class="col-7 ps-0 m-0 flex-grow-1">
+                        <div class="row">
+                            <div class="col">
+                                <div class="row">
+                                    <div class="col d-flex flex-column justify-content-between">
+                                        <p class="fs-6 text-secondary m-0 p-0">Rating</p>
+                                        <p class="fs-6 text-secondary m-0 p-0">Rentals</p>
+                                    </div>
+                                    <div class="col d-flex flex-column justify-content-between">
+                                        <a href="#" class="fs-6 text-success m-0 p-0 text-decoration-none">5</a>
+                                        <a href="#" class="fs-6 text-success mt-3 p-0 text-decoration-none">15</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="row">
+                                    <div class="col d-flex flex-column justify-content-between">
+                                        <p class="fs-6 text-secondary m-0 p-0">Response Rate</p>
+                                        <p class="fs-6 text-secondary m-0 p-0">Response Time</p>
+                                    </div>
+                                    <div class="col d-flex flex-column justify-content-between">
+                                        <a href="#" class="fs-6 text-success m-0 p-0 text-decoration-none">85%</a>
+                                        <a href="#" class="fs-6 text-success mt-3 p-0 text-decoration-none">within hours</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="row">
+                                    <div class="col d-flex flex-column justify-content-between">
+                                        <p class="fs-6 text-secondary m-0 p-0">Joined</p>
+                                        <p class="fs-6 text-secondary m-0 p-0">Followers</p>
+                                    </div>
+                                    <div class="col d-flex flex-column justify-content-between">
+                                        <a href="#" class="fs-6 text-success m-0 p-0 text-decoration-none">5 months ago</a>
+                                        <a href="#" class="fs-6 text-success mt-3 p-0 text-decoration-none">130</a>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            
                         </div>
                     </div>
 
@@ -142,19 +177,10 @@
 
 
                 </div>
-                
-            <div class="row mt-4 mx-5 bg-body rounded-3 shadow-sm">
-                <div class="p-5">
-                    <p class="fs-5 fw-bold">Reviews</p>
+                <div class="row container-fluid mt-3 mx-0 bg-body rounded-3 shadow-sm p-4 gap-3 d-flex">
+                    reviews
                 </div>
 
-            </div>
-
-            
-
-
-            
-        
         </div>
 
 
