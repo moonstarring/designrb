@@ -102,8 +102,8 @@
                             </div>
                             
                             <div class="col d-flex align-items-end justify-content-end pe-2">
-                                <a href="#"><button class="btn btn-outline-dark rounded-5 shadow-sm me-3">Add to Cart</button></a>
-                                <a href="#"><button class="btn btn-success rounded-5 shadow-sm gradient-success">Rent Now</button></a>
+                                <a href="#"><button class="btn btn-outline-dark rounded-5 shadow-sm me-3 btn-lg">Add to Cart</button></a>
+                                <a href="#"><button class="btn btn-success rounded-5 shadow-sm gradient-success btn-lg">Rent Now</button></a>
                             </div>
                         </div>
                     </div>
@@ -196,27 +196,34 @@
                     dolores quae sit fugiat ratione eius consequuntur! Ea, iusto quas nihil consequatur earum vitae aliquam sint tempore consequuntur praesentium!</p>
             </div>
 
-            <div class="row container-fluid mt-3 mx-0 bg-body rounded-3 shadow-sm p-4 d-flex align-items-start">
-                <p class="fs-5 text-decoration-none text-dark fw-bold mb-2 p-0">Product Specification</p>
-                <div class="col-2 d-flex flex-column gap-3">
-                    <small class="text-secondary pt-1">Category</small>
-                    <small class="text-secondary pt-1">Available Stock</small>
-                    <small class="text-secondary pt-1">Location</small>
-                </div>
-
-                <div class="col d-flex flex-column gap-3">
-                    <div class="d-flex gap-1 p-0 m-0">
-                        <a href="#" class="p-0 m-0 link-success link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover">Wearables</a>
-                        <p class="text-secondary m-0 p-0"> > </p>
-                        <a href="#" class="p-0 mb-0 link-success link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover">IOS</a>
+            <div class="row container-fluid mt-3 mx-0 bg-body rounded-3 shadow-sm pe-5 p-4  d-flex align-items-start">
+                <p class="fs-5 text-decoration-none text-dark fw-bold mb-2 p-0">Ratings</p>
+ 
+                <div class="col-1 border">
+                    <div class="d-flex flex-column align-items-center">
+                    <p class="fs-5 fw-bold m-0 p-0">4 out of 5</p>
+                        <div class="d-flex gap-1">
+                            <i class="bi bi-star-fill text-warning"></i>
+                            <i class="bi bi-star-fill text-warning"></i>
+                            <i class="bi bi-star-fill text-warning"></i>
+                            <i class="bi bi-star-fill text-warning"></i>
+                            <i class="bi bi-star text-warning"></i>
+                        </div>
                     </div>
-                    <p class="fs-6 text-success m-0 p-0">15</p>
-                    <p class="fs-6 text-success m-0 p-0">Cabato Rd., Brgy. Tetuan, Zamboanga City</p>
                 </div>
 
-                <p class="fs-5 text-decoration-none text-dark fw-bold mt-5 mb-3 p-0">Product Description</p>
-                <p class="m-0 ps-2">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempora, architecto fuga 
-                    dolores quae sit fugiat ratione eius consequuntur! Ea, iusto quas nihil consequatur earum vitae aliquam sint tempore consequuntur praesentium!</p>
+                <div class="col-11 border d-flex align-items-center ">
+                        <button class="btn btn-small btn-outline-success"> All</button>
+                        <button class="btn btn-small btn-outline-success">5 stars</button>
+                        <button class="btn btn-small btn-outline-success">4 stars</button>
+                        <button class="btn btn-small btn-outline-success">3 stars</button>
+                        <button class="btn btn-small btn-outline-success">2 stars</button>
+                        <button class="btn btn-small btn-outline-success">1 star</button>
+                        <button class="btn btn-small btn-outline-success">With Media</button>
+                        <button class="btn btn-small btn-outline-success">With Comments</button>
+                    
+                </div>
+                
             </div>
         </div>
 
