@@ -1,3 +1,6 @@
+<?php
+
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -18,8 +21,8 @@
         <?php require_once 'navbar.php'; ?>
 
         <!-- body -->
-        <div class="bg-body-secondary container-fluid p-3">
-            <div class="bg-body p-4 rounded-3 shadow-sm">
+        <div class="row container-fluid bg-body-secondary px-3 pb-5 pt-3 m-0">
+            <div class="col-3 bg-body p-4 rounded-3 shadow-sm">
                 <div class="d-flex align-items-center">
                     <img src="images/user/pfp.png" class="img-thumbnail rounded-circle pfp me-3" alt="">
                     <div class="d-flex flex-column">
@@ -29,64 +32,70 @@
                         </div>
                     </div>
                 </div>
-
-                <div class="d-flex flex-column">
-                    <div class="p-3">
-                        <p class="fs-5 fw-bold mb-2">Categories</p>
-                        <div>
-                            <button class="btn btn-outline-success fs-6 fw-bold mb-2 ms-2 border-0" type="button" data-bs-toggle="collapse" data-bs-target="#collapse1" aria-expanded="false" aria-controls="collapse1">
-                                <i class="bi bi-gift me-1"></i>All Gadgets</button>
-                            <!-- filter -->
-                            <div class="collapse ps-3" id="collapse1">
-                                <div class="d-flex align-items-start flex-column gap-1">
-                                    <input type="checkbox" class="btn-check" id="btn-check-1" autocomplete="off">
-                                    <label class="btn btn-outline-secondary" for="btn-check-1">Photography/Videography</label>
-
-                                    <input type="checkbox" class="btn-check" id="btn-check-2" autocomplete="off">
-                                    <label class="btn btn-outline-secondary" for="btn-check-2">Audio and Music</label>
-
-                                    <input type="checkbox" class="btn-check" id="btn-check-3" autocomplete="off">
-                                    <label class="btn btn-outline-secondary" for="btn-check-3">Consumer Electronics</label>
-
-                                    <input type="checkbox" class="btn-check" id="btn-check-4" autocomplete="off">
-                                    <label class="btn btn-outline-secondary" for="btn-check-4">Gaming and Entertainment</label>
-
-                                    <input type="checkbox" class="btn-check" id="btn-check-5" autocomplete="off">
-                                    <label class="btn btn-outline-secondary" for="btn-check-5">Smart Home and IoT</label>
-
-                                    <input type="checkbox" class="btn-check" id="btn-check-5" autocomplete="off">
-                                    <label class="btn btn-outline-secondary" for="btn-check-5">Wearables</label>
-                                </div>
-                            </div>
+                <hr>
+                <div class="d-flex flex-column gap-2 mt-3">
+                    <a class="fs-6 fw-bold ext-decoration-none text-dark" type="button" data-bs-toggle="collapse" data-bs-target="#collapse1" aria-expanded="true" aria-controls="collapse1">
+                        <i class="bi bi-person-fill-gear me-1"></i>My Account</a>
+                    <div class="collapse show ps-3" id="collapse1">
+                        <div class="d-flex align-items-start flex-column gap-1">
+                            <a href="#" class="fs-6 text-decoration-none text-secondary">Profile</a>
+                            <a href="#" class="fs-6 text-decoration-none text-secondary">Banks & Cards</a>
+                            <a href="#" class="fs-6 text-decoration-none text-secondary">Address</a>
+                            <a href="#" class="fs-6 text-decoration-none text-secondary">Change Password</a>
+                            <a href="#" class="fs-6 text-decoration-none text-secondary">Privacy Settings</a>
+                            <a href="#" class="fs-6 text-decoration-none text-secondary">Notification Settings</a>
                         </div>
-                        <input type="checkbox" class="btn-check" id="btn-check-6" autocomplete="off">
-                        <label class="btn btn-outline-success fs-6 fw-bold mb-2 ms-2 border-0" for="btn-check-6"><i class="bi bi-bag me-1"></i>Newly Posted</label>
-
-                        <input type="checkbox" class="btn-check" id="btn-check-7" autocomplete="off">
-                        <label class="btn btn-outline-success fs-6 fw-bold mb-2 ms-2 border-0" for="btn-check-7"><i class="bi bi-stars me-1"></i>Top Ratings</label>
-
-                        <input type="checkbox" class="btn-check" id="btn-check-8" autocomplete="off">
-                        <label class="btn btn-outline-success fs-6 fw-bold mb-2 ms-2 border-0" for="btn-check-8"><i class="bi bi-percent me-1"></i>On Discount</label>
-                        <br>
-                        <input type="checkbox" class="btn-check" id="btn-check-9" autocomplete="off">
-                        <label class="btn btn-outline-success fs-6 fw-bold mb-2 ms-2 border-0" for="btn-check-9"><i class="bi bi-plus me-1"></i>Others</label>
-
                     </div>
+                    <a class="fs-6 fw-bold border-0 text-decoration-none text-dark" href=""><i class="bi bi-box2-heart-fill me-1"></i>My Rentals</a>
+                    <a class="fs-6 fw-bold border-0 text-decoration-none text-dark" href=""><i class="bi bi-bell-fill me-1"></i>Notifications</a>
+                    <a class="fs-6 fw-bold border-0 text-decoration-none text-dark" href=""><i class="bi bi-ticket-fill me-1"></i>Promos and Vouchers</a>
+                </div>
+            </div>
 
+            <div class="col ms-3 bg-body rounded-3 shadow-sm pb-5 pt-3 px-3">
+                <div class="ms-3">
+                    <p class="fs-5 fw-bold text-dark m-0 p-0">My Profile</p>
+                    <p class="text-secondary">Manage and protect your account</p>
+                </div>
+                <hr>
+                <div class="container px-5">
+                    <form>
+                        <div class="mb-3 me-5">
+                            <label for="username" class="form-label">Username</label>
+                            <input type="text" class="form-control" id="usersname">
+                            <div id="emailHelp" class="form-text">Username can only be changed once.</div>
+                        </div>
+                        <div class="mb-3 me-5">
+                            <label for="name" class="form-label">Name</label>
+                            <input type="text" class="form-control" id="name">
+                        </div>
+                        <div class="mb-3">
+                            <label for="" class="form-label">Email address</label>
+                            <p>u*****@gmail.com</p>
+                            <a href="#">Change</a>
+                        </div>
+                        <div class="mb-3">
+                            <label for="" class="form-label">Email address</label>
+                            <p>u*****@gmail.com</p>
+                            <a href="#">Change</a>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                    </form>
                 </div>
 
 
-
-
-
             </div>
+
+
+
+
+
         </div>
-
-
+    </div>
 
     </div>
 
-    <?php require_once 'footer.php' ?>
+
 </body>
 <script src="vendor/bootstrap-5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 
