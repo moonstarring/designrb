@@ -12,9 +12,8 @@
 .rb{
     color: #1F4529;
 }
-
 .active{
-    color: #1F4529;
+    color:#1F4529;
 }
 .secondary{
     color: #9bc6a6;
@@ -22,7 +21,6 @@
 .secondary:hover{
     color:#1F4529;
 }
-
 .btn-success{
     color: white;
     border-color: #1F4529;
@@ -71,3 +69,7 @@ border: linear-gradient(90deg,#1f4529,#16301e,#0c1b11);
     }
   }
 
+.pfp{
+    width: 90px;
+    height: 90px;
+}
