@@ -18,16 +18,17 @@
             <button type="button" class="success btn btn-outline-success rounded-circle m-0 p-0" type="button" data-bs-toggle="dropdown" aria-expanded="true">
                 <img src="images/user/pfp.png" class="object-fit-fill border rounded-circle" alt="pfp" style="width:50px; height: 50px;">
             </button>
-            <ul class="dropdown-menu rounded-4">
-                <li>
-                    <p class="dropdown-item-text fw-bold m-0">User name</p>
-                </li>
+            <ul class="dropdown-menu rounded-4 mx-4">
+                <li><p class="dropdown-item-text fw-bold m-0">User name</p></li>
                 <hr class="m-0 p-0">
-                <li class="my-1"><a class="dropdown-item" href="renter_profile.php"><i class="bi bi-gear-fill me-2"></i>Profile</a></li>
-                <li class="my-1"><a class="dropdown-item" href="#"><i class="bi bi-envelope-fill me-2"></i>Messages</a></li>
-                <li class="my-1"><a class="dropdown-item" href="#"><i class="bi bi-box2-heart-fill me-2"></i>Rentals</a></li>
+                <li class="my-1"><a class="dropdown-item text-dark link-success" href="renter_profile.php"><i class="bi bi-gear-fill me-2"></i>Profile</a></li>
+                <li class="my-1"><a class="dropdown-item text-dark link-success" href="#"><i class="bi bi-envelope-fill me-2"></i>Messages</a></li>
+                <li class="my-1"><a class="dropdown-item text-dark link-success" href="#"><i class="bi bi-box2-heart-fill me-2"></i>Rentals</a></li>
                 <hr class="m-0 p-0">
-                <li class="my-1"><a class="dropdown-item" href="#"><i class="bi bi-box-arrow-right me-2"></i>Log out</a></li>
+                <li class="my-1"><a class="dropdown-item text-dark link-success" href="#"><i class="bi bi-headset me-2"></i>Supports</a></li>
+                <li class="my-1"><a class="dropdown-item text-dark link-success" href="#"><i class="bi bi-flag-fill me-2"></i>File a Report</a></li>
+
+                <li class="my-1"><a class="dropdown-item text-dark link-success" href="#"><i class="bi bi-box-arrow-right me-2"></i>Log out</a></li>
             </ul>
         </div>
     </div>

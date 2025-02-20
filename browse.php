@@ -1,16 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-    <title>Rentbox</title>
-    <link rel="icon" type="image/png" href="images/brand/rb logo white.png">
-    <link href="vendor/bootstrap-5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
-    <link rel="stylesheet" href="vendor/font/bootstrap-icons.css">
-    <link rel="stylesheet" href="style.css">
-</head>
-
+<?php require_once 'head.php'; ?>
 <body>
 
     <div class="container-fluid image-bg m-0 p-0">
@@ -21,13 +9,10 @@
         <div class="container bg-body rounded-top-5 d-flex">
             <div class="mx-5 my-4 container-fluid d-flex justify-content-between align-items-center">
                 <p class="fs-4 fw-bold my-auto rb">Rent Gadgets, Your Way</p>
-                <div class="d-flex gap-3">
-                    <input class="form-control rounded-5 px-3 shadow-sm" list="datalistOptions" id="exampleDataList" placeholder="Type to search...">
-                    <datalist id="datalistOptions" class="m-0 p-0">
-                        <option value="San Francisco">
-                    </datalist>
-                    <button type="button" class="btn btn-success rounded-5 px-4 py-0 m-0 shadow-sm">Search</button>
-                </div>
+                <form class="d-flex gap-3">
+                    <input class="form-control rounded-5 px-3 shadow-sm w-100" list="datalistOptions" id="exampleDataList" placeholder="Type to search...">
+                    <button type="button" class="btn gradient-success rounded-5 px-4 py-0 m-0 shadow-sm">Search</button>
+                </form>
             </div>
         </div>
 

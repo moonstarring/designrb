@@ -33,10 +33,6 @@
     background-color: #689457;
 }
 
-.btn-success:focus, .btn-success.focus{
-    box-shadow: 0 0 0 0.2rem rgba(40, 167, 69, 0.5);
-}
-
 .btn-outline-success {
     color: #1F4529;
     border-color: #1F4529;
@@ -48,15 +44,28 @@
     border-color: #1F4529;
 }
 
-.btn-success:focus, .btn-success.focus{
-    box-shadow: 0 0 0 0.2rem rgba(40, 167, 69, 0.5);
+.gradient-success{
+color: white;
+border-color: #1F4529;
+background-color: #1F4529;
 }
+
 .gradient-success:hover{
 background: linear-gradient(90deg,#1f4529,#16301e,#0c1b11);
 background-size: 180% 180%;
 animation: gradient-animation 2s ease infinite;
-border: linear-gradient(90deg,#1f4529,#16301e,#0c1b11);
+color: white;
+border-color: #1F4529;
 }
+
+.gradient-success:focus{
+background: linear-gradient(90deg,#1f4529,#16301e,#0c1b11);
+background-size: 180% 180%;
+animation: gradient-animation 2s ease infinite;
+color: white;
+border-color: #1F4529;
+}
+
 @keyframes gradient-animation {
     0% {
       background-position: 0% 50%;

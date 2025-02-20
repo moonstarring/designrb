@@ -1,18 +1,4 @@
-<?php
-
-?>
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-    <title>Rentbox</title>
-    <link rel="icon" type="image/png" href="images/brand/rb logo white.png">
-    <link href="vendor/bootstrap-5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
-    <link rel="stylesheet" href="vendor/font/bootstrap-icons.css">
-    <link rel="stylesheet" href="style.css">
-</head>
+<?php require_once 'head.php'; ?>
 
 <body>
 
@@ -26,7 +12,7 @@
                 <div class="d-flex align-items-center">
                     <img src="images/user/pfp.png" class="img-thumbnail rounded-circle pfp me-3" alt="">
                     <div class="d-flex flex-column">
-                        <p class="fs-5 fw-bold m-0 p-0">User Name</p>
+                        <p class="fs-5 fw-bold m-0 p-0">User Name <i class="bi bi-patch-check-fill text-success ms-1"><!--remove "fill" if not verified--></i></p>
                         <div class="d-flex">
                             <a href="" class="text-secondary text-decoration-none"><small><i class="bi bi-pen-fill pe-1"></i>Edit Profile</small></a>
                         </div>
@@ -34,7 +20,7 @@
                 </div>
                 <hr>
                 <div class="d-flex flex-column gap-2 mt-3">
-                    <a class="fs-6 fw-bold ext-decoration-none text-dark" type="button" data-bs-toggle="collapse" data-bs-target="#collapse1" aria-expanded="true" aria-controls="collapse1">
+                    <a class="fs-6 fw-bold text-decoration-none text-dark" type="button" data-bs-toggle="collapse" data-bs-target="#collapse1" aria-expanded="true" aria-controls="collapse1">
                         <i class="bi bi-person-fill-gear me-1"></i>My Account</a>
                     <div class="collapse show ps-3" id="collapse1">
                         <div class="d-flex align-items-start flex-column gap-1">
@@ -46,13 +32,93 @@
                             <a href="#" class="fs-6 text-decoration-none text-secondary">Notification Settings</a>
                         </div>
                     </div>
-                    <a class="fs-6 fw-bold border-0 text-decoration-none text-dark" href=""><i class="bi bi-box2-heart-fill me-1"></i>My Rentals</a>
+                    <a class="fs-6 fw-bold border-0 text-decoration-none active" href=""><i class="bi bi-box2-heart-fill me-1 "></i>My Rentals</a>
                     <a class="fs-6 fw-bold border-0 text-decoration-none text-dark" href=""><i class="bi bi-bell-fill me-1"></i>Notifications</a>
                     <a class="fs-6 fw-bold border-0 text-decoration-none text-dark" href=""><i class="bi bi-ticket-fill me-1"></i>Promos and Vouchers</a>
                 </div>
             </div>
+            <!-- rentals -->
+            <div class="col ms-3 bg-body-secondary">
+                <div class="bg-body p-4 rounded-3">
+                    <p class="fs-5 fw-bold ms-3">My Rentals</p>
+                    <hr>
+                    <!-- navigation tabs -->
+                    <ul class="nav nav-tabs d-flex justify-content-around" id="myTab" role="tablist">
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link active text-dark px-5" id="all-tab" data-bs-toggle="tab" data-bs-target="#all" type="button" role="tab" aria-controls="all" aria-selected="true">
+                                All</button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link text-dark px-5" id="pending-tab" data-bs-toggle="tab" data-bs-target="#pending" type="button" role="tab" aria-controls="pending" aria-selected="false">
+                                Pending Approval</button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link text-dark px-5" id="pay-tab" data-bs-toggle="tab" data-bs-target="#pay" type="button" role="tab" aria-controls="pay" aria-selected="false">
+                                To Pay</button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link text-dark px-5" id="pick-tab" data-bs-toggle="tab" data-bs-target="#pick" type="button" role="tab" aria-controls="pick" aria-selected="false">
+                                For Pick Up</button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link text-dark px-5" id="completed-tab" data-bs-toggle="tab" data-bs-target="#completed" type="button" role="tab" aria-controls="completed" aria-selected="false">
+                                Completed</button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link text-dark px-5" id="cancelled-tab" data-bs-toggle="tab" data-bs-target="#cancelled" type="button" role="tab" aria-controls="cancelled" aria-selected="false">
+                                Cancelled</button>
+                        </li>
+                    
+                    </ul>
+                </div>
 
-            <div class="col ms-3 bg-body rounded-3 shadow-sm pb-5 pt-3 px-3">
+                <!-- tab content -->
+                <div class="tab-content" id="myTabContent">
+                    <div class="tab-pane fade show active border" id="all" role="tabpanel" aria-labelledby="all-tab">
+                        <form class="d-flex gap-3 mt-3 justify-content-center px-5">
+                            <input class="form-control rounded-3 px-3 shadow-sm" list="datalistOptions" id="exampleDataList" placeholder="Type to search...">
+                            <button type="button" class="btn gradient-success rounded-3 px-4 py-0 m-0 shadow-sm">Search</button>
+                        </form>
+
+                        <div class="bg-body mt-3 rounded-3 p-3">
+                            aasdasd
+
+                        </div>
+                    </div>
+
+                    <div class="tab-pane fade" id="pending" role="tabpanel" aria-labelledby="pending-tab">
+                        b
+                    </div>
+
+                    <div class="tab-pane fade" id="pay" role="tabpanel" aria-labelledby="pay-tab">
+                        c
+                    </div>
+
+                    <div class="tab-pane fade" id="pick" role="tabpanel" aria-labelledby="pick-tab">
+                        d
+                    </div>
+
+                    <div class="tab-pane fade" id="completed" role="tabpanel" aria-labelledby="completed-tab">
+                        e
+                    </div>
+
+                    <div class="tab-pane fade" id="cancelled" role="tabpanel" aria-labelledby="cancelled-tab">
+                        f
+                    </div>
+
+
+
+
+
+
+                </div>
+            </div>
+
+
+
+
+            <!-- profile settings -->
+            <!-- <div class="col ms-3 bg-body rounded-3 shadow-sm pb-5 pt-3 px-3">
                 <div class="ms-3">
                     <p class="fs-5 fw-bold text-dark m-0 p-0">My Profile</p>
                     <p class="text-secondary">Manage and protect your account</p>
@@ -82,9 +148,7 @@
                         <button type="submit" class="btn btn-primary">Submit</button>
                     </form>
                 </div>
-
-
-            </div>
+            </div> -->
 
 
 

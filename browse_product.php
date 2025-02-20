@@ -10,7 +10,7 @@
             </div>
             <div class="d-flex justify-content-between align-items-center mt-2">
                 <a href="#"><button class="btn btn-outline-dark btn-sm rounded-5 shadow-sm m-0">Add to Cart</button></a>
-                <a href="#"><button class="btn btn-success btn-sm rounded-5 shadow m-0">Rent Now</button></a>
+                <a href="#"><button class="btn btn-success btn-sm rounded-5 shadow m-0 gradient-success">Rent Now</button></a>
             </div>
         </div>
     </div>
