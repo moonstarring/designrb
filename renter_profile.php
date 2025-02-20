@@ -10,7 +10,7 @@
         <div class="row container-fluid bg-body-secondary px-3 pb-5 pt-3 m-0">
             <div class="col-3 bg-body p-4 rounded-3 shadow-sm">
                 <div class="d-flex align-items-center">
-                    <img src="images/user/pfp.png" class="img-thumbnail rounded-circle pfp me-3" alt="">
+                    <img src="images/user/pfp.png" class="img-thumbnail rounded-circle pfp me-3 shadow-sm" alt="">
                     <div class="d-flex flex-column">
                         <p class="fs-5 fw-bold m-0 p-0">User Name <i class="bi bi-patch-check-fill text-success ms-1"><!--remove "fill" if not verified--></i></p>
                         <div class="d-flex">
