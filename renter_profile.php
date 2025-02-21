@@ -61,29 +61,76 @@
                                 For Pick Up</button>
                         </li>
                         <li class="nav-item" role="presentation">
-                            <button class="nav-link text-dark px-5" id="completed-tab" data-bs-toggle="tab" data-bs-target="#completed" type="button" role="tab" aria-controls="completed" aria-selected="false">
+                            <button class="nav-link text-dark px-5" id="return-tab" data-bs-toggle="tab" data-bs-target="#return" type="button" role="tab" aria-controls="return" aria-selected="false">
+                                Returned</button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link text-dark px-5" id="complete-tab" data-bs-toggle="tab" data-bs-target="#complete" type="button" role="tab" aria-controls="complete" aria-selected="false">
                                 Completed</button>
                         </li>
                         <li class="nav-item" role="presentation">
-                            <button class="nav-link text-dark px-5" id="cancelled-tab" data-bs-toggle="tab" data-bs-target="#cancelled" type="button" role="tab" aria-controls="cancelled" aria-selected="false">
+                            <button class="nav-link text-dark px-5" id="cancel-tab" data-bs-toggle="tab" data-bs-target="#cancel" type="button" role="tab" aria-controls="cancel" aria-selected="false">
                                 Cancelled</button>
                         </li>
-                    
+
                     </ul>
                 </div>
 
                 <!-- tab content -->
                 <div class="tab-content" id="myTabContent">
-                    <div class="tab-pane fade show active border" id="all" role="tabpanel" aria-labelledby="all-tab">
+                    <div class="tab-pane fade show active" id="all" role="tabpanel" aria-labelledby="all-tab">
                         <form class="d-flex gap-3 mt-3 justify-content-center px-5">
                             <input class="form-control rounded-3 px-3 shadow-sm" list="datalistOptions" id="exampleDataList" placeholder="Type to search...">
                             <button type="button" class="btn gradient-success rounded-3 px-4 py-0 m-0 shadow-sm">Search</button>
                         </form>
+                        <?php include 'renter_profile_product.php' ?>
 
-                        <div class="bg-body mt-3 rounded-3 p-3">
-                            aasdasd
+                        <!-- product base design -->
+                        <!-- <div class="bg-body mt-3 rounded-3 p-3">
+                            <div class="row">
+                                <div class="col d-flex align-items-center ms-3 gap-2 mb-2">
+                                    <p class="m-0 p-0"><span class="badge text-bg-success me-2">Verified</span>Owner Name</p>
+                                    <button class="btn btn-success px-2 py-1"><small><i class="bi bi-envelope-fill me-1"></i>Message</small></button>
+                                    <button class="btn btn-outline-secondary px-2 py-1"><small><i class="bi bi-person-lines-fill me-1"></i>View Profile</small></button>
+                                </div>
+                                <div class="col d-flex align-items-center  justify-content-end me-3 gap-2 mb-2">
+                                    <p class="m-0 p-0 text-success">Device has been returned to owner.</p>
+                                    <i class="bi bi-info-circle"></i>
+                                    <p class="m-0 p-0">|</p>
 
-                        </div>
+                                    <p class="m-0 p-0 text-success">RETURNED</p>
+                                </div>
+                            </div>
+                            <hr class="mb-3 mt-0 p-0">
+                            <div class="row m-0 p-0">
+                                <div class="col-2 m-0 p-0">
+                                    <img src="images/products/laptop.png" alt="product" class="img-thumbnail border-3 shadow-sm">
+                                </div>
+                                <div class="col-10 m-0 p-3 d-flex flex-column justify-content-around">
+                                    <div class="m-0 p-0">
+                                        <p class="fs-5 fw-bold m-0 p-0">Product Name</p>
+                                        <p class="fs-6 text-secondary m-0 p-0">Brand Model</p>
+                                        <p class="fs-6 active m-0 p-0">Renting Date</p>
+                                    </div>
+
+                                    <div class="d-flex justify-content-end align-items-baseline gap-2">
+                                        <p class="fs-6 text-secondary m-0 p-0">Payment Total:</p>
+                                        <p class="fs-4 fw-bold m-0 p-0">₱</p>
+                                    </div>
+
+                                    <div class="d-flex justify-content-end align-items-baseline gap-2 p-3 bg-body-tertiary rounded-3">
+                                        <div class="col">
+                                            <small class="m-0 p-0">Rate this item before mm-dd-yyyy to complete the transaction.</small>
+                                        </div>
+
+                                        <div class="col">
+                                            <button class="btn btn-success px-5">Rate<i class="bi bi-star ms-2"></i></button>
+                                            <button class="btn btn-outline-success">Request for Early Return/Refund</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div> -->
                     </div>
 
                     <div class="tab-pane fade" id="pending" role="tabpanel" aria-labelledby="pending-tab">
@@ -98,12 +145,16 @@
                         d
                     </div>
 
-                    <div class="tab-pane fade" id="completed" role="tabpanel" aria-labelledby="completed-tab">
+                    <div class="tab-pane fade" id="return" role="tabpanel" aria-labelledby="return-tab">
                         e
                     </div>
 
-                    <div class="tab-pane fade" id="cancelled" role="tabpanel" aria-labelledby="cancelled-tab">
+                    <div class="tab-pane fade" id="complete" role="tabpanel" aria-labelledby="complete-tab">
                         f
+                    </div>
+
+                    <div class="tab-pane fade" id="cancel" role="tabpanel" aria-labelledby="cancel-tab">
+                        g
                     </div>
 
 
