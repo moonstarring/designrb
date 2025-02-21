@@ -19,22 +19,64 @@
                     </div>
                 </div>
                 <hr>
+
                 <div class="d-flex flex-column gap-2 mt-3">
-                    <a class="fs-6 fw-bold text-decoration-none text-dark" type="button" data-bs-toggle="collapse" data-bs-target="#collapse1" aria-expanded="true" aria-controls="collapse1">
-                        <i class="bi bi-person-fill-gear me-1"></i>My Account</a>
-                    <div class="collapse show ps-3" id="collapse1">
-                        <div class="d-flex align-items-start flex-column gap-1">
-                            <a href="#" class="fs-6 text-decoration-none text-secondary">Profile</a>
-                            <a href="#" class="fs-6 text-decoration-none text-secondary">Banks & Cards</a>
-                            <a href="#" class="fs-6 text-decoration-none text-secondary">Address</a>
-                            <a href="#" class="fs-6 text-decoration-none text-secondary">Change Password</a>
-                            <a href="#" class="fs-6 text-decoration-none text-secondary">Privacy Settings</a>
-                            <a href="#" class="fs-6 text-decoration-none text-secondary">Notification Settings</a>
+                    <div class="accordion border-0" id="accordionPanelsStayOpen">
+                        <div class="accordion-item border-0">
+                            <h2 class="accordion-header ">
+                                <button class="accordion-button rounded-3 fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+                                    <i class="bi bi-person-fill-gear me-2"></i>My Account
+                                </button>
+                            </h2>
+                            <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show">
+                                <div class="accordion-body p-3">
+                                    <div class="d-flex align-items-start flex-column gap-1">
+                                        <a href="#" class="fs-6 text-decoration-none text-secondary">Profile</a>
+                                        <a href="#" class="fs-6 text-decoration-none text-secondary">Banks & Cards</a>
+                                        <a href="#" class="fs-6 text-decoration-none text-secondary">Address</a>
+                                        <a href="#" class="fs-6 text-decoration-none text-secondary">Change Password</a>
+                                        <a href="#" class="fs-6 text-decoration-none text-secondary">Privacy Settings</a>
+                                        <a href="#" class="fs-6 text-decoration-none text-secondary">Notification Settings</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item border-0">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed rounded-3 fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+                                    <i class="bi bi-box2-heart-fill me-2 "></i>My Rentals
+                                </button>
+                            </h2>
+                            <!-- <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse">
+                                <div class="accordion-body">
+                                </div>
+                            </div> -->
+                        </div>
+
+                        <div class="accordion-item border-0">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed rounded-3 fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+                                    <i class="bi bi-bell-fill me-2"></i>Notifications
+                                </button>
+                            </h2>
+                            <!-- <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse">
+                                <div class="accordion-body">
+                                </div>
+                            </div> -->
+                        </div>
+                        <div class="accordion-item border-0">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed rounded-3 fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseFour" aria-expanded="false" aria-controls="panelsStayOpen-collapseFour">
+                                    <i class="bi bi-ticket-fill me-2"></i>Promos and Vouchers
+                                </button>
+                            </h2>
+                            <!-- <div id="panelsStayOpen-collapseFour" class="accordion-collapse collapse">
+                                <div class="accordion-body">
+                                </div>
+                            </div> -->
                         </div>
                     </div>
-                    <a class="fs-6 fw-bold border-0 text-decoration-none active" href=""><i class="bi bi-box2-heart-fill me-1 "></i>My Rentals</a>
-                    <a class="fs-6 fw-bold border-0 text-decoration-none text-dark" href=""><i class="bi bi-bell-fill me-1"></i>Notifications</a>
-                    <a class="fs-6 fw-bold border-0 text-decoration-none text-dark" href=""><i class="bi bi-ticket-fill me-1"></i>Promos and Vouchers</a>
                 </div>
             </div>
             <!-- rentals -->
