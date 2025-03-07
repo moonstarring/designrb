@@ -18,10 +18,10 @@
         <?php require_once 'navbar.php'; ?>
 
         <!-- body -->
-        <div class="bg-body-secondary p-4 shadow-lg">
+        <div class="bg-dark-subtle p-4 shadow-lg">
             <div class="row container-fluid m-0 p-0 gap-3">
 
-                <div class="col-4 bg-body p-4 rounded-3 shadow-sm m-0">
+                <div class="col-4 img-thumbnail bg-body p-4 rounded-3 shadow-sm m-0">
                     <div id="carouselIndicators" class="carousel carousel-dark slide">
                         <div class="carousel-indicators">
                             <button type="button" data-bs-target="#carouselIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -33,7 +33,7 @@
                                 <img src="images/products/airpods-4-anc-select-202409.jpg" class="d-block w-100" alt="...">
                             </div>
                             <div class="carousel-item">
-                                <img src="images/products/laptop.png" class="d-block w-100" alt="...">
+                                <img src="images/products/airpods-4-anc-select-202409.jpg" class="d-block w-100" alt="...">
                             </div>
                             <div class="carousel-item">
                                 <img src="images/products/airpods-4-anc-select-202409.jpg" class="d-block w-100" alt="...">
@@ -93,10 +93,9 @@
 
                         <div class="row d-flex">
                             <div class="col-4">
-                                <small class="text-secondary p-0 mb-2">Brand/Model:</small>
+                                <small class="text-secondary p-0 mb-2">Condition:</small>
                                 <div class="d-flex gap-2 mt-1 mb-3">
-                                    <a href="#" class="btn btn-outline-success m-0 p-1">Apple</a>
-                                    <a href="#" class="btn btn-outline-success m-0 p-1">Airpods Pro 1</a>
+                                    <a href="#" class="btn btn-outline-success m-0 p-1">Like new</a>
                                 </div>
 
                                 <small class="text-secondary p-0 mb-2">Comes with:</small>
@@ -138,11 +137,11 @@
                     <img src="images/user/pfp.png" alt="" class="rounded-circle border shadow-sm img-thumbnail">
                 </div>
                 <div class="col-2 d-flex flex-column border-end m-0 p-0 align-self-start">
-                    <a href="#" class="fs-5 text-decoration-none text-dark fw-bold m-0 p-0">Owner Name</a>
+                    <a href="renter_owner_profile_view.php" class="fs-5 text-decoration-none text-dark fw-bold m-0 p-0">Owner Name</a>
                     <p href="#" class="fs-6 text-secondary p-0">Active 3 mins ago</p>
                     <div class="d-flex gap-2">
                         <a href="#" class="btn btn-success m-0 px-2">Message</a>
-                        <a href="#" class="btn btn-outline-secondary m-0 px-2">View Profile</a>
+                        <a href="renter_owner_profile_view.php" class="btn btn-outline-secondary m-0 px-2">View Profile</a>
                     </div>
                 </div>
                 <div class="col-7 ps-0 m-0 flex-grow-1">

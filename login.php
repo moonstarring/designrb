@@ -1,45 +1,40 @@
 <?php require_once 'head.php'; ?>
+<?php require_once 'navbar.php'; ?>
 
-<body class="container-fluid bg-body-secondary">
-    <div class="container bg-body rounded-bottom-5 d-flex mb-5 py-3 shadow">
-        <a href="browse.php">
-            <img class="ms-5 my-4" src="images/brand/rb logo text colored.png" alt="Logo" height="50px">
-        </a>
-        <div class="my-auto mx-auto d-flex gap-3">
-            <a href="browse.php" class="fs-5 text-decoration-none fw-bold active" id="">Browse</a>
-            <a href="#" class="fs-5 text-decoration-none fw-bold" id="">Become an Owner</a>
-        </div>
-        <div class="d-flex me-5 align-items-center gap-3">
-            <button type="button" class="success btn btn-outline-success rounded-circle"><i class="bi bi-search fs-5"></i></button>
-            <button type="button" class="success btn btn-outline-success rounded-circle"><i class="bi bi-basket3 fs-5"></i></button>
-            <!-- no acc -->
-            <!-- <button type="button" href="login.php" class="success btn btn-outline-success rounded-pill py-2 gradient-success">Rent Now</button> -->
-
-            <!-- IF LOGGED IN  -->
-
-            <div class="dropdown-center">
-                <button type="button" class="success btn btn-outline-success rounded-circle m-0 p-0" type="button" data-bs-toggle="dropdown" aria-expanded="true">
-                    <img src="images/user/pfp.png" class="object-fit-fill border rounded-circle" alt="pfp" style="width:50px; height: 50px;">
-                </button>
-                <ul class="dropdown-menu rounded-4 mx-4">
-                    <li>
-                        <p class="dropdown-item-text fw-bold m-0">User name</p>
-                    </li>
-                    <hr class="m-0 p-0">
-                    <li class="my-1"><a class="dropdown-item text-dark link-success" href="renter_profile.php"><i class="bi bi-gear-fill me-2"></i>Profile</a></li>
-                    <li class="my-1"><a class="dropdown-item text-dark link-success" href="#"><i class="bi bi-envelope-fill me-2"></i>Messages</a></li>
-                    <li class="my-1"><a class="dropdown-item text-dark link-success" href="#"><i class="bi bi-box2-heart-fill me-2"></i>Rentals</a></li>
-                    <hr class="m-0 p-0">
-                    <li class="my-1"><a class="dropdown-item text-dark link-success" href="#"><i class="bi bi-headset me-2"></i>Supports</a></li>
-                    <li class="my-1"><a class="dropdown-item text-dark link-success" href="#"><i class="bi bi-flag-fill me-2"></i>File a Report</a></li>
-
-                    <li class="my-1"><a class="dropdown-item text-dark link-success" href="#"><i class="bi bi-box-arrow-right me-2"></i>Log out</a></li>
-                </ul>
+<body class="container-fluid bg-dark-subtle">
+    <div class="row d-flex justify-content-center">
+        <div class="card col-4 rounded-5 shadow-sm mb-5">
+            <div class="card-body d-flex flex-column justify-content-center">
+                <h4 class="text-center mt-4 mb-4 fw-bold">Login</h4>
+        
+                <!-- Display error message if credentials are incorrect or account pending 
+                <?php if ($errorMessage): ?>
+                    <div class="alert alert-danger text-center"><?php echo htmlspecialchars($errorMessage); ?></div>
+                <?php endif; ?> -->
+        
+                <form method="POST" action="" class="col">
+                    <div class="form-floating mb-3 mx-3">
+                        <input type="email" name="email" class="form-control ps-4 rounded-5" id="floatingInput" placeholder="Email" required value="">
+                        <label for="floatingInput" class="ps-4">Email</label>
+                    </div>
+        
+                    <div class="form-floating mb-1 mx-3">
+                        <input type="password" name="password" class="form-control ps-4 rounded-5" id="floatingPassword" placeholder="Password" required>
+                        <label for="floatingPassword" class="ps-4">Password</label>
+                    </div>
+        
+                    <div class="d-flex justify-content-end mb-4 mx-5">
+                        <small><a class="link-hover link-secondary" href="forgot-password.php">Forgot Password?</a></small>
+                    </div>
+                    
+                    <div class="d-flex flex-column justify-content-center align-items-center mb-4 mx-3 mb-3 gap-2">
+                        <button type="submit" class="btn btn-success shadow-sm fs-5 rounded-5 px-5 py-2">Login</button>
+                        <p class="text-secondary p-0 m-0">or</p>
+                        <a href="" class="btn btn-outline-success shadow-sm mb-3 fs-5 rounded-5 px-5 py-2">Create Account</a>
+                    </div>
+                </form>
             </div>
         </div>
     </div>
-
-    <script>
-
-    </script>
+    <?php require_once 'footer.php'; ?>
 </body>

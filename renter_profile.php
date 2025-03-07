@@ -7,7 +7,7 @@
         <?php require_once 'navbar.php'; ?>
 
         <!-- body -->
-        <div class="row container-fluid bg-body-secondary px-3 pb-5 pt-3 m-0">
+        <div class="row container-fluid bg-dark-subtle px-3 pb-5 pt-3 m-0">
             <div class="col-3 bg-body p-4 rounded-3 shadow-sm">
                 <div class="d-flex align-items-center">
                     <img src="images/user/pfp.png" class="img-thumbnail rounded-circle pfp me-3 shadow-sm" alt="">
@@ -80,8 +80,8 @@
                 </div>
             </div>
             <!-- rentals -->
-            <div class="col ms-3 bg-body-secondary">
-                <div class="bg-body p-4 rounded-3">
+            <div class="col">
+                <div class="bg-body rounded-3 m-0 p-0">
                     <p class="fs-5 fw-bold ms-3">My Rentals</p>
                     <hr>
                     <!-- navigation tabs -->

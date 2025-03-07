@@ -1,4 +1,5 @@
 <?php require_once 'head.php'; ?>
+
 <body>
 
     <div class="container-fluid image-bg m-0 p-0">
@@ -6,14 +7,12 @@
         <?php require_once 'navbar.php'; ?>
 
         <!-- body -->
-        <div class="container bg-body rounded-top-5 d-flex">
-            <div class="mx-5 my-4 container-fluid d-flex justify-content-between align-items-center">
-                <p class="fs-4 fw-bold my-auto rb">Rent Gadgets, Your Way</p>
-                <form class="d-flex gap-3">
-                    <input class="form-control rounded-5 px-3 shadow-sm w-100" list="datalistOptions" id="exampleDataList" placeholder="Type to search...">
-                    <button type="button" class="btn gradient-success rounded-5 px-4 py-0 m-0 shadow-sm">Search</button>
-                </form>
-            </div>
+        <div class="row d-flex bg-body align-items-center justify-content-between rounded-top-5 shadow-lg py-4 px-5 mx-5">
+            <p class="fs-4 fw-bold rb col-5 m-0">Rent Gadgets, Your Way</p>
+            <form class="col-7 d-flex gap-3">
+                <input class="form-control rounded-5 px-3 shadow-sm" list="datalistOptions" id="exampleDataList" placeholder="Type to search...">
+                <button type="submit" class="btn gradient-success rounded-5 m-0 shadow-sm px-5">Search</button>
+            </form>
         </div>
 
         <div class="container-fluid bg-light rounded-start-3">
@@ -21,8 +20,8 @@
                 <!-- side bar - Categories -->
                 <?php require_once 'browse_side.php'; ?>
                 <!-- products -->
-                <div class="col-9 rounded-start-3 bg-body-secondary">
-                    <div class="row mb-3 mt-0 container rounded-start-3 bg-body-secondary">
+                <div class="col-9 rounded-start-3 bg-dark-subtle">
+                    <div class="row mb-3 mt-0 container rounded-start-3 bg-dark-subtle">
                         <?php include "browse_product.php"; ?>
                     </div>
 

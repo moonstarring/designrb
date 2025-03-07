@@ -82,3 +82,12 @@ border-color: #1F4529;
     width: 90px;
     height: 90px;
 }
+
+.pfp2{
+    width: 150px;
+    height: 150px;
+}
+
+.bg-opacity{
+    background-color: rgba(255, 255, 255, 0.9);
+}
