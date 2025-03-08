@@ -18,7 +18,7 @@
         <?php require_once 'navbar.php'; ?>
 
         <!-- body -->
-        <div class="bg-dark-subtle p-4 shadow-lg">
+        <div class="bg-body-secondary p-4 shadow-lg">
             <div class="row container-fluid m-0 p-0 gap-3">
 
                 <div class="col-4 img-thumbnail bg-body p-4 rounded-3 shadow-sm m-0">
@@ -241,25 +241,7 @@
                 </div>
 
                 <div class="mt-3 d-flex">
-                    <img src="images/user/pfp.png" alt="" class="rounded-circle border me-3 p-0" style="width: 40px; height: 40px;">
-                    <div class="d-flex flex-column">
-                        <p class="fs-6 fw-bold m-0 p-0">User Name</p>
-                        <div class="d-flex gap-1 m-0">
-                            <i class="bi bi-star-fill text-warning"></i>
-                            <i class="bi bi-star-fill text-warning"></i>
-                            <i class="bi bi-star-fill text-warning"></i>
-                            <div class="d-flex gap-1 m-0">
-                                <p class="text-secondary">|</p>
-                                <p class="text-secondary">2024-10-05</p>
-                                <p class="text-secondary">17:04</p>
-                            </div>
-                        </div>
-                        <p class="mt-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium perspiciatis fugit, rem, dolorum fuga dolorem reiciendis quam hic ipsa architecto ratione, dicta odio vitae voluptatem laudantium iure eius! Reprehenderit, dolor?</p>
-                        suggested comments
-                        attached images
-                    </div>
-
-
+                    <?php include 'owner_review.php'; ?>
                 </div>
 
             </div>

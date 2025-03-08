@@ -81,7 +81,7 @@
             </div>
             <!-- rentals -->
             <div class="col">
-                <div class="bg-body rounded-3 m-0 p-0">
+                <div class="bg-body p-4 rounded-3 m-0 p-0">
                     <p class="fs-5 fw-bold ms-3">My Rentals</p>
                     <hr>
                     <!-- navigation tabs -->
