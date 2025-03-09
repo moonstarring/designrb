@@ -50,18 +50,10 @@ border-color: #1F4529;
 background-color: #1F4529;
 }
 
-.gradient-success:hover{
+.gradient-success:hover, .gradient-success:focus{
 background: linear-gradient(90deg,#1f4529,#16301e,#0c1b11);
 background-size: 180% 180%;
-animation: gradient-animation 2s ease infinite;
-color: white;
-border-color: #1F4529;
-}
-
-.gradient-success:focus{
-background: linear-gradient(90deg,#1f4529,#16301e,#0c1b11);
-background-size: 180% 180%;
-animation: gradient-animation 2s ease infinite;
+animation: gradient-animation 0.3s ease;
 color: white;
 border-color: #1F4529;
 }
