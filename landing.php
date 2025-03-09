@@ -1,9 +1,9 @@
 <?php require_once 'head.php'; ?>
-<body class="">
+<body class="bg-dark-subtle">
     <nav class="navbar navbar-expand-lg bg-body sticky-top pt-3 pb-3 shadow-sm" aria-label="navbar" id="">
         <div class="container-fluid d-flex justify-content-between">
             <a href="browse.php">
-                <img class="ms-5 my-auto mt-1" src="images\rb logo text colored.png" alt="Logo" height="50px">
+                <img class="ms-5 my-auto mt-1" src="images/brand/rb logo text colored.png" alt="Logo" height="50px">
             </a>
             <!-- links -->
             <div class="me-5 p-1 d-flex align-items-center">
@@ -21,20 +21,20 @@
 
                 <?php if (!isset($_SESSION['id'])): ?>
                     <div>
-                        <a type="button" class="gradient btn rounded-4 px-4 py-2 shadow-sm" href="signup.php">Sign Up</a>
+                        <a type="button" class="btn gradient-success rounded-4 px-4 py-2 shadow-sm" href="signup.php">Sign Up</a>
                     </div>
                 <?php else: ?>
                     <div>
-                        <a href="login.php" class="gradient btn rounded-4 px-4 py-2 shadow-sm" href="login.php">Log In</a>
+                        <a href="login.php" class="btn gradient-success rounded-4 px-4 py-2 shadow-sm" href="login.php">Log In</a>
                     </div>
                 <?php endif; ?>
             </div>
         </div>
     </nav>
 
-    <main class="container-fluid">
+    <main class="container-fluid p-0">
         <div class="container mt-5">
-            <div class="row p-4 pb-0 pe-lg-0 pt-lg-5 align-items-center rounded-5 border shadow-lg m-0">
+            <div class="row p-4 pb-0 pe-lg-0 pt-lg-5 align-items-center rounded-5 border shadow-lg m-0 bg-body">
                 <div class="col-lg-6 p-3 p-lg-5 pt-lg-3">
                     <h1 class="display-3 fw-bold lh-1 text-body-emphasis pb-3">Your Gadgets,<br> Your Way</h1>
                     <p class="lead">
@@ -46,7 +46,7 @@
                     </div>
                 </div>
                 <div class="col-lg-4 p-0">
-                    <img class="rounded-lg-3" src="images/landing.images/hero.png" alt="image" width="500">
+                    <img class="rounded-lg-3" src="images/landing/hero.png" alt="image" width="500">
                 </div>
             </div>
         </div>
