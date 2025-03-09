@@ -2,7 +2,7 @@
 
 <body>
 
-    <div class="container-fluid image-bg m-0 p-0">
+    <div class="container-fluid image-bg m-0 p-0 overflow-auto">
         <!-- navbar -->
         <?php require_once 'navbar.php'; ?>
 
@@ -20,7 +20,7 @@
                 </div>
                 <hr>
 
-                <div class="d-flex flex-column gap-2 mt-3">
+                <div class="d-flex flex-column gap-2 mt-3 overflow-auto">
                     <div class="accordion border-0" id="accordionPanelsStayOpen">
                         <div class="accordion-item border-0">
                             <h2 class="accordion-header ">
@@ -242,16 +242,10 @@
                     </form>
                 </div>
             </div> -->
-
-
-
-
-
         </div>
     </div>
 
-    </div>
-
+    <?php require_once 'footer.php' ?>
 
 </body>
 <script src="vendor/bootstrap-5.3.3/dist/js/bootstrap.bundle.min.js"></script>

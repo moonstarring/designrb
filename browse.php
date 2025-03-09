@@ -8,7 +8,7 @@
 
         <!-- body -->
         <div class="row d-flex bg-body align-items-center justify-content-between rounded-top-5 shadow-lg py-4 px-5 mx-5">
-            <p class="fs-4 fw-bold rb col-5 m-0">Rent Gadgets, Your Way</p>
+            <p class="fs-4 fw-bold rb col-5 m-0">Your Gadgets, Your Way</p>
             <form class="col-7 d-flex gap-3">
                 <input class="form-control rounded-5 px-3 shadow-sm" list="datalistOptions" id="exampleDataList" placeholder="Type to search...">
                 <button type="submit" class="btn gradient-success rounded-5 m-0 shadow-sm px-5">Search</button>
@@ -57,8 +57,6 @@
             </div>
 
 
-
-            <?php require_once 'footer.php' ?>
         </div>
 
 
