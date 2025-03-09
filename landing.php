@@ -1,4 +1,5 @@
 <?php require_once 'head.php'; ?>
+
 <body class="bg-dark-subtle">
     <nav class="navbar navbar-expand-lg bg-body sticky-top pt-3 pb-3 shadow-sm" aria-label="navbar" id="">
         <div class="container-fluid d-flex justify-content-between">
@@ -77,7 +78,7 @@
                         <div class="col-6">
                             <div class="d-flex align-items-center">
                                 <i class="bi bi-credit-card-2-front-fill fs-1 text-success me-2"></i>
-                                <h5 class="fw-bold">Payment propaymeection, guaranteed</h5>
+                                <h5 class="fw-bold">Payment, guaranteed</h5>
                             </div>
                             <p>Your money is held safely until the rental period is completed.</p>
                         </div>
@@ -91,23 +92,28 @@
                     </div>
                 </div>
 
-                <div class="col-4 shadow">
-                    <img class="border object-fit-contain" src="" alt="cart image" style="width: 70%; height: 50%;">
+                <div class="col-4  p-5 d-flex flex-column align-items-center">
+                    <img class="object-fit-cover" src="images/landing/secure.png" alt="" style="width: 60%; height: auto;">
                     <h5 class="fw-bold">You’re safe with us</h5>
-                    <p class="m-0 p-0">Rentbox is designed to protect you throughout the rental process. With all discussions taking place on our platform, we secure your payments, and your information remains confidential at all times.</p>
-                    <small class="m-0 p-0"><a href="" class="link-success link-offset-2 link-underline-opacity-0 link-underline-opacity-10-hover">Learn more about security</a></small>
+                    <div>
+                        <p class="m-0 p-0">Rentbox is designed to protect you throughout the rental process. With all discussions taking place on our platform, we secure your payments, and your information remains confidential at all times.</p>
+                        <small class="m-0 p-0"><a href="" class="link-success link-offset-2 link-underline-opacity-0 link-underline-opacity-100-hover">Learn more about security</a></small>
+                    </div>
                 </div>
             </div>
         </div>
 
-        <div class="divider mt-5"></div>
+        <div class="pt-5 bg-body"></div>
 
-        <div class="gradient container-fluid pt-5">
+        <div class="container-fluid pt-5" style="
+            color: white;
+            border-color: #1F4529;
+            background-color: #1F4529;">
             <h1 class="display-4 fw-bold text-center m-0 p-0" style="text-shadow: 2px 2px 4px #000000;">We’re connected to the <br>digital community</h1>
             <div class="row p-5">
                 <div class="col-4">
                     <div class="container">
-                        <div class="rounded-5 d-flex align-items-end shadow-lg thumb" style="width:auto; height: 80vh; background-image: url('images/landing.images/story (1).png'); background-size: contain; background-position: center;">
+                        <div class="rounded-5 d-flex align-items-end shadow-lg thumb" style="width:auto; height: 80vh; background-image: url('images/landing/story (1).png'); background-size: contain; background-position: center;">
                             <div class="container-fluid px-3 pt-5 pb-3 rounded-bottom-5 " style="background: linear-gradient(180deg, rgba(0,0,0,0.5046393557422969) 0%, rgba(0,0,0,0.927608543417367) 0%, rgba(0,0,0,0) 0%, rgba(0,0,0,0.6306897759103641) 36%, rgba(0,0,0,0.7679446778711485) 63%, rgba(0,0,0,0.8743872549019608) 100%);">
                                 <h6 class="">Francis Mercer is a certified owner influencer. Watch our collab!</h6>
                                 <div class="d-flex align-items-center">
@@ -115,13 +121,13 @@
                                     <small>University Digest</small>
                                 </div>
                             </div>
-                        </div>f
+                        </div>
                     </div>
                 </div>
 
                 <div class="col-4">
                     <div class="container">
-                        <div class="rounded-5 d-flex align-items-end shadow-lg  thumb" style="width:auto; height: 80vh; background-image: url('images/landing.images/story (2).png'); background-size: contain; background-position: center;">
+                        <div class="rounded-5 d-flex align-items-end shadow-lg  thumb" style="width:auto; height: 80vh; background-image: url('images/landing/story (2).png'); background-size: contain; background-position: center;">
                             <div class="container-fluid px-3 pt-5 pb-3 rounded-bottom-5" style="background: linear-gradient(180deg, rgba(0,0,0,0.5046393557422969) 0%, rgba(0,0,0,0.927608543417367) 0%, rgba(0,0,0,0) 0%, rgba(0,0,0,0.6306897759103641) 36%, rgba(0,0,0,0.7679446778711485) 63%, rgba(0,0,0,0.8743872549019608) 100%);">
                                 <h6 class="">We reached 1, 000 Users!</h6>
                                 <div class="d-flex align-items-center">
@@ -135,7 +141,7 @@
 
                 <div class="col-4">
                     <div class="container">
-                        <div class="rounded-5 d-flex align-items-end shadow-lg  thumb" style="width:auto; height: 80vh; background-image: url('images/landing.images/story (3).png'); background-size: contain; background-position: center;">
+                        <div class="rounded-5 d-flex align-items-end shadow-lg  thumb" style="width:auto; height: 80vh; background-image: url('images/landing/story (3).png'); background-size: contain; background-position: center;">
                             <div class="container-fluid px-3 pt-5 pb-3 rounded-bottom-5" style="background: linear-gradient(180deg, rgba(0,0,0,0.5046393557422969) 0%, rgba(0,0,0,0.927608543417367) 0%, rgba(0,0,0,0) 0%, rgba(0,0,0,0.6306897759103641) 36%, rgba(0,0,0,0.7679446778711485) 63%, rgba(0,0,0,0.8743872549019608) 100%);">
                                 <h6 class="">Join our free webinar with our experienced professionals.</h6>
                                 <div class="d-flex align-items-center">
@@ -148,9 +154,8 @@
                 </div>
             </div>
         </div>
-
-        <div class="divider"></div>
     </main>
+    <?php require_once 'footer.php'; ?>
 </body>
 
 <script src="vendor\bootstrap-5.3.3\dist\js\bootstrap.bundle.min.js"></script>

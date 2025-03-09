@@ -5,12 +5,12 @@
             <p class="mb-2">Rentbox is a company registered in the Philippines with Company Reg. No. CS2024123456</>
 
             <div class="me-5 mb-3">
-                <div class="d-flex align-items-center justify-content-between me-5 gap-4 bg-dark p-2 rounded">
-                    <i class="bi bi-facebook text-white fs-6"></i>
-                    <i class="bi bi-youtube text-white fs-6"></i>
-                    <i class="bi bi-tiktok text-white fs-6"></i>
-                    <i class="bi bi-instagram text-white fs-6"></i>
-                    <i class="bi bi-linkedin text-white fs-6"></i>
+                <div class="d-flex align-items-center justify-content-between me-5 gap-4 p-2 rounded  gradient-success">
+                    <a href=""><i class="bi bi-facebook text-white fs-6"></i></a>
+                    <a href=""><i class="bi bi-youtube text-white fs-6"></i></a>
+                    <a href=""><i class="bi bi-tiktok text-white fs-6"></i></a>
+                    <a href=""><i class="bi bi-instagram text-white fs-6"></i></a>
+                    <a href=""><i class="bi bi-linkedin text-white fs-6"></i></a>
                 </div>
             </div>
         </div>
