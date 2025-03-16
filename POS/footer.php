@@ -1,7 +1,7 @@
-<div class="container-fluid border-top pb-5 bg-body m-0">
+<footer class="container-fluid border-top pb-5 bg-body m-0">
     <div class="row m-5">
         <div class="col">
-            <img class="mb-2" src="images/rb logo text colored.png" alt="" height="40px;">
+            <img class="mb-2" src="../images/rb logo text colored.png" alt="" height="40px;">
             <p class="mb-2">Rentbox is a company registered in the Philippines with Company Reg. No. CS2024123456</>
 
             <div class="me-5 mb-3">
@@ -37,4 +37,4 @@
             <a href="" class="link-secondary link-offset-2 link-underline-opacity-0 link-underline-opacity-100-hover">Contact Us</a>
         </div>
     </div>
-</div>
+</footer>
